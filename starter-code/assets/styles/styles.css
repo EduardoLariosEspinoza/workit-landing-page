@@ -1,0 +1,505 @@
+:root {
+  --Dark-Purple: #24053e;
+  --Eucaplyptus: #44ffa1;
+  --Davys-Grey: #584d62;
+  --Ghost-White: #fcf8ff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  background-color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.5rem 10.31rem 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: -0.01125rem;
+}
+
+hr {
+  border: 1px solid var(--Eucaplyptus);
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+
+footer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 7.25rem;
+  height: 6.39rem;
+  align-self: center;
+  top: 142.61rem;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+}
+
+#card {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+#card_learn_more {
+  height: 45.6rem;
+  background-color: var(--Dark-Purple);
+  position: absolute;
+  top: 0;
+  z-index: 500;
+}
+
+#ref {
+  position: relative;
+  display: inline-block;
+}
+
+#main_title_div {
+  position: relative;
+  width: 39.69rem;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin-top: 3.44rem;
+}
+
+#main_title_div hr {
+  width: 15.1875rem;
+  height: 0.1875rem;
+  flex-shrink: 0;
+  margin: 0 9.37rem 0 15.37rem;
+}
+
+#main_title {
+  color: white;
+  text-align: center;
+}
+
+#learn_more_button {
+  align-self: center;
+  margin-top: 2.31rem;
+}
+
+#celular {
+  position: absolute;
+  width: 44.6875rem;
+  height: 26.6875rem;
+  flex-shrink: 0;
+  z-index: 999;
+  top: 28.38rem;
+  align-self: center;
+}
+
+#card_description {
+  position: relative;
+  height: 60rem;
+  flex-shrink: 0;
+  background-color: var(--Ghost-White);
+  top: 31.5rem;
+  z-index: 20;
+}
+
+#desciption_numbers {
+  display: flex;
+  flex-direction: row;
+  margin: 30.06rem auto 10.69rem auto;
+  width: 77.355555555%;
+  min-width: 69.625rem;
+  height: 19.25rem;
+  flex-shrink: 0;
+  gap: 1.62rem;
+  color: var(--Dark-Purple);
+}
+
+#profile_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  position: absolute;
+  top: 91.5rem;
+}
+
+#profile {
+  align-self: self-end;
+  position: relative;
+  width: 69.42rem;
+  height: 40.48rem;
+  bottom: 17.02rem;
+}
+
+#photo {
+  width: 29.8125rem;
+  height: 29.8125rem;
+  flex-shrink: 0;
+}
+
+#profile_access {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45.625rem;
+  height: 25.8125rem;
+  flex-shrink: 0;
+  background-color: var(--Dark-Purple);
+  position: absolute;
+  top: 10.81rem;
+  right: 0;
+  padding: 4rem;
+  color: white;
+}
+
+#profile_title {
+  color: white;
+}
+
+#footer_social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#logo_footer {
+  width: 100%;
+  height: 100%;
+}
+
+#bg-pattern-1 {
+  position: absolute;
+  left: -9rem;
+  top: 9rem;
+}
+
+#bg-pattern-2 {
+  position: absolute;
+  right: -3rem;
+  top: 20rem;
+}
+
+#bg-pattern-3 {
+  position: absolute;
+  right: 4.54rem;
+  bottom: -3.8rem;
+}
+
+.heading {
+  font-family: "Fraunces", serif;
+  color: var(--Dark-Purple);
+  font-weight: 600;
+}
+
+.heading-l {
+  font-size: 5rem;
+  line-height: 5rem;
+}
+
+.heading-m {
+  font-size: 3.5rem;
+  line-height: 4rem;
+}
+
+.heading-s {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.body {
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.card_element {
+  width: 100vw;
+  border-bottom-right-radius: 100% 15%;
+  border-bottom-left-radius: 100% 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+.primary-button {
+  width: 11.875rem;
+  height: 3.8125rem;
+  flex-shrink: 0;
+  background: var(--Eucaplyptus);
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: -0.01125rem;
+  border: none;
+}
+
+.primary-button:hover {
+  background: var(--Dark-Purple);
+  border: 2px solid var(--Eucaplyptus);
+  color: var(--Eucaplyptus);
+  cursor: pointer;
+}
+
+.secondary-button {
+  color: white;
+  font-weight: 700;
+  letter-spacing: -0.01125rem;
+}
+
+.secondary-button:hover {
+  color: var(--Eucaplyptus);
+}
+
+.number_list_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.number_list {
+  border-radius: 1.90625rem;
+  border: 1px solid var(--Davys-Grey);
+  width: 3.5rem;
+  height: 3.5rem;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.subtitle_description {
+  position: absolute;
+  top: 7rem;
+  bottom: 9.75rem;
+}
+
+@media screen and (max-width: 1150px) {
+  nav {
+    padding: 2rem 2.44rem 0;
+  }
+
+  a {
+    line-height: 2rem;
+  }
+
+  #card_learn_more {
+    height: 33.76rem;
+  }
+
+  #main_title_div hr {
+    width: 13.375rem;
+    height: 0.1875rem;
+    flex-shrink: 0;
+    margin: 0 15.04rem 0 10rem;
+  }
+
+  #celular {
+    width: 29.94706rem;
+    height: 17.91269rem;
+    top: 24.5rem;
+  }
+
+  #desciption_numbers {
+    flex-direction: column;
+    margin: 15.21rem 0 10.69rem 0;
+    width: 100vw;
+    height: 57.52rem;
+    gap: 3rem;
+    min-width: 0;
+  }
+
+  #photo {
+    width: 17.5625rem;
+    height: 17.5625rem;
+  }
+
+  #profile_access {
+    width: 80vw;
+    min-width: 32.125rem;
+    height: 23.4375rem;
+    top: 9.44rem;
+    padding: 3rem;
+    color: white;
+  }
+
+  .heading-l {
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+  }
+
+  .heading-m {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  .heading-s {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+
+  .body {
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+  }
+
+  .primary-button {
+    width: 8.3125rem;
+    height: 3.4375rem;
+  }
+
+  .number_list_div {
+    width: 70vw;
+    align-self: center;
+    padding-left: 5rem;
+  }
+
+  .number_list_div p {
+    text-align: left;
+    margin-top: 1rem;
+  }
+
+  .subtitle_description {
+    position: relative;
+    top: 0rem;
+    bottom: 0rem;
+  }
+
+  .number_list {
+    position: absolute;
+    width: 3rem;
+    height: 2.875rem;
+    left: 0;
+    bottom: 1.06rem;
+  }
+}
+
+@media screen and (max-width: 594px) {
+  nav {
+    padding: 2rem 0.96rem 0;
+  }
+
+  span {
+    text-decoration: underline;
+    text-decoration-color: var(--Eucaplyptus);
+  }
+
+  #card_learn_more {
+    height: 30.11rem;
+  }
+
+  #main_title_div hr {
+    display: none;
+  }
+
+  #celular {
+    width: 18.64406rem;
+    height: 11.13494rem;
+    top: 24.31rem;
+  }
+
+  #card_description {
+    padding: 1rem;
+    height: 67rem;
+    top: 24.5rem;
+  }
+
+  /* cambiar a direccion row en clase de numeros */
+  #desciption_numbers {
+    margin: 15.31rem 0 3.48rem 0;
+    height: 100%;
+    gap: 2.5rem;
+  }
+
+  #profile {
+    display: flex;
+  }
+
+  #photo {
+    width: 17.5625rem;
+    height: 17.5625rem;
+    margin: 0 auto;
+  }
+
+  #profile_access {
+    width: 100%;
+    min-width: 0;
+    height: 23.4375rem;
+    top: 14.25rem;
+    padding: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #bg-pattern-1 {
+    display: none;
+  }
+
+  #bg-pattern-2 {
+    display: none;
+  }
+
+  #bg-pattern-3 {
+    display: none;
+  }
+
+  .heading-l {
+    width: 90vw;
+    font-size: 3.125rem;
+    line-height: 3.125rem;
+  }
+
+  .heading-m {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .heading-s {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+
+  .number_list_div {
+    width: 100%;
+    align-self: center;
+    padding: 0 1rem;
+  }
+
+  .number_list_div p {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .number_list {
+    position: relative;
+    align-self: center;
+    left: auto;
+    bottom: auto;
+    font-size: 1.25rem;
+  }
+}
